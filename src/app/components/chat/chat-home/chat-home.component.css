@@ -1,0 +1,51 @@
+.image{
+    background-image: url('../../../../assets/images/chat_vector.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-position: center;
+    
+}
+
+
+
+.add{
+    background-color: #401a72;
+    color: white;
+    padding: 3px;
+    margin-left: 15%;
+    cursor: pointer;  
+}
+
+td img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+
+td {
+    text-align: center;
+    justify-content: center;
+}
+form{
+    margin-bottom: 10px;
+}
+
+.btn{
+    border-radius: 100px;
+    background-color: rgb(82, 165, 168);
+    transition: all 0.2s ease;
+    color: white;
+    float: right;
+}
+
+.btn:hover{
+    background-color: rgb(42, 87, 89);
+    cursor: pointer;
+    letter-spacing: 4px;
+}
+
+.cen{
+    text-align: center;
+    justify-content: center;
+}

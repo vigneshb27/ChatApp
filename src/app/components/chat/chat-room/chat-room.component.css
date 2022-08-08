@@ -1,0 +1,112 @@
+
+
+.infoBar{
+    background-color:  rgb(42, 87, 89);
+}
+
+.toName{
+    font-size: large;
+    color: whitesmoke;
+}
+span .opt button{
+   padding: 3px;
+   margin:3px;
+  
+}
+
+.infoBar span{
+    margin-right:10px;
+}
+.messages{
+    height: 60vh;
+    background-image: url('../../../../assets/images/whatsapp_bg.jpg');
+    background-position: center;
+    overflow-y: scroll !important;
+    
+}
+
+.my-message{
+    
+    max-width:35vw;
+    margin-left:40vw;
+}
+
+.blocks .card{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.card{
+    border: none;
+}
+
+.contact-message{
+   
+    max-width:25vw;
+    margin-right:0;
+}
+
+.messageBody{
+    min-height:fit-content;
+    min-width: fit-content;
+    max-width:35vw;
+    background-color: rgb(206, 224, 224);
+    
+}
+img{
+    width:100px;
+    height: 100px;
+}
+
+.userHandle{
+    font-size: small;
+    height: 30px;
+    color: white;
+}
+
+.my-message .userHandle{
+    background-color: rgb(42, 87, 89);
+    color: white
+}
+
+.contact-message .userHandle{
+    background-color: white;
+    color:rgb(42, 87, 89);
+}
+
+.my-message .userHandle .menu{
+    margin-left:85%;
+    cursor: pointer;
+    color: white
+}
+
+
+.contact-message .userHandle .menu{
+    margin-left:50%;
+    /* margin-top:-15px; */
+    cursor: pointer;
+    color:rgb(9, 109, 84);
+}
+
+.close{
+    color: white;
+}
+
+h5 i{
+    float: right;
+}
+
+.btn{
+    border-radius: 100px;
+    background-color: rgb(82, 165, 168);
+    transition: all 0.2s ease;
+    color: white;
+}
+.infoBar .btn:hover{
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+.col-lg-2 .btn:hover{
+    background-color: rgb(42, 87, 89);
+    cursor: pointer;
+    letter-spacing: 4px;
+}
